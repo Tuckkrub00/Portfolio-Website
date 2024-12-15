@@ -17,7 +17,8 @@ const Hero = () => {
         loop={true}
         muted={true}
         // className="rotate-180 absolute top-[-340px] left-0 z-[1] w-full h-full object-cover"
-        className="transform scale-x-[-1] absolute  left-0 z-[1] w-full h-full object-cover"
+        // className="transform scale-x-[-1] absolute  left-0 z-[1] w-full h-full object-cover"
+        className="transform  absolute  left-0 z-[1] w-full h-full object-cover"
       >
         <source
           src="/webm/tendou-alice-blue-archive-1-moewalls-com.mp4"
