@@ -15,8 +15,7 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      //   className="flex flex-row bg-black opacity-75  h-full items-center justify-center px-20  w-full z-[20]"
-      className="flex flex-row   h-full items-center justify-center px-20  w-full z-[20]"
+      className="flex flex-row bg-purple-900  bg-opacity-20  h-full items-center justify-center px-20  w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -25,7 +24,7 @@ export const HeroContent = () => {
           className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] "
         >
           <SparklesIcon className="text-[#6838f8] mr-[10px] h-5 w-5" />
-          <h1 className="text-white text-[18px]">My portfolio</h1>
+          <h1 className="Welcome-text text-[22px]">My portfolio</h1>
         </motion.div>
 
         <motion.div
@@ -42,7 +41,7 @@ export const HeroContent = () => {
         <motion.p
           variants={slideInFromLeft(0.8)}
           //   className="text=lg text-gray-400 my-5 max-w-[600px]"
-          className="text=lg text-zinc-300 my-5 max-w-[600px]"
+          className="text=lg text-white my-5 max-w-[600px]"
         >
           I&apos;m a Computer Engineering & Digital Technology student at
           Chulalongkorn University.
