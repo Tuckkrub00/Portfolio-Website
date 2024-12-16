@@ -15,9 +15,9 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row bg-purple-900  bg-opacity-20  h-full items-center justify-center px-20  w-full z-[20]"
+      className="flex flex-row   h-full items-center justify-center px-20  w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full  w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           //   className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
@@ -29,13 +29,16 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-7xl text-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-7xl text-bold Wel text-white max-w-[600px] w-auto h-auto"
         >
-          Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            the best
+          <span>
+            Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              the best{" "}
+            </span>
+            project exprience
           </span>
-          project expreience
         </motion.div>
 
         <motion.p
@@ -43,8 +46,8 @@ export const HeroContent = () => {
           //   className="text=lg text-gray-400 my-5 max-w-[600px]"
           className="text=lg text-white my-5 max-w-[600px]"
         >
-          I&apos;m a Computer Engineering & Digital Technology student at
-          Chulalongkorn University.
+          I&apos;m currently a second-year student majoring in Computer
+          Engineering and Digital Technology at Chulalongkorn University.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(0.8)}
