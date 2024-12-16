@@ -7,7 +7,7 @@ interface Props {
 }
 export const ProjectCard = ({ src, title, description }: Props) => {
   return (
-    <div className="relative md:h-[380px] md:w-[31%] overflow-hidden rounded-lg shadow-lg border bg-black border-[#2A0E61]">
+    <div className="relative md:h-[380px] md:w-[31%] overflow-hidden rounded-lg shadow-lg border bg-opacity-80 bg-black border-[#2A0E61]">
       <Image
         alt={title}
         src={src}
@@ -15,7 +15,7 @@ export const ProjectCard = ({ src, title, description }: Props) => {
         height={2000}
         className="w-full object-contain"
       ></Image>
-      <div className="relative bg-black p-4">
+      <div className="relative  p-4">
         <h1 className="text-2xl font-semibold text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-300">
           {title}
         </h1>
