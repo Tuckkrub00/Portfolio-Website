@@ -4,7 +4,7 @@ import Skills from "./components/main/Skills";
 export default function Home() {
   return (
     <main className="h-full  w-full">
-      <div className="flex bg-purple-900  bg-opacity-20 z-[2] flex-col gap-20">
+      <div className="flex bg-violet-950  bg-opacity-30 z-[2] flex-col gap-20">
         {/* <video
           autoPlay={true}
           loop={true}
