@@ -1,4 +1,5 @@
 import Hero from "./components/main/Hero";
+import { Project } from "./components/main/Project";
 import Skills from "./components/main/Skills";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         </video> */}
         <Hero></Hero>
         <Skills />
+        <Project></Project>
       </div>
     </main>
   );
