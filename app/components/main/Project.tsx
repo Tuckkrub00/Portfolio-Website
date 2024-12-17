@@ -40,7 +40,7 @@ export const Project = () => {
           title="My webPortfolio"
           src="/pj/my_webPortfolio.png"
           description="using Next.js to create my webPortfolio and deploy with vercel"
-          href="https://portfolio-website-gf57kfnc6-panthanas-projects.vercel.app"
+          href="#firstPage"
         ></ProjectCard>
         <ProjectCard
           title="Embedded System Project"
