@@ -27,33 +27,78 @@ export const Project = () => {
           title="Data Science Data Engineering"
           src="/pj/data_science.png"
           description="using academic papers since 2018 to 2023 from sciencedirect webSide to create AI/ML models and make data visualization wtih streamlit"
-        ></ProjectCard>
-        <ProjectCard
-          title="Software Engineering Project"
-          src="/pj/data_enginear.png"
-          description="using Scam process to work with team members,using Next.js to create website and deploy with vercel"
-        ></ProjectCard>
-        <ProjectCard
-          title="My webPortfolio"
-          src="/pj/my_webPortfolio.png"
-          description="using Next.js to create my webPortfolio and deploy with vercel"
-        ></ProjectCard>
-        <ProjectCard
-          title="Embedded System Project"
-          src="/pj/embed_system.png"
-          description="using esp32 and other sensors to create a smart home model that can control every thing throught the internet"
+          href="https://paperjourney.streamlit.app/"
         ></ProjectCard>
         <ProjectCard
           title="frontend & backend project"
           src="/pj/frontend_backend.png"
           description="using non recreational database(mongoDB) and Next.js to create  a website for booking vaccine"
+          href="https://swdevprac2-project-gambit-man.vercel.app/"
+        ></ProjectCard>
+
+        <ProjectCard
+          title="My webPortfolio"
+          src="/pj/my_webPortfolio.png"
+          description="using Next.js to create my webPortfolio and deploy with vercel"
+          href="https://portfolio-website-gf57kfnc6-panthanas-projects.vercel.app"
+        ></ProjectCard>
+        <ProjectCard
+          title="Embedded System Project"
+          src="/pj/embed_system.png"
+          description="using esp32 and other sensors to create a smart home model that can control every thing throught the internet"
+          href="https://embedded-project-bay.vercel.app/"
+        ></ProjectCard>
+        <ProjectCard
+          title="Software Engineering Project"
+          src="/pj/data_enginear.png"
+          description="using Scam process to work with team members,using Next.js to create website and deploy with vercel"
+          href="https://kss-v2.vercel.app/"
         ></ProjectCard>
         <ProjectCard
           title="frontend project"
           src="/pj/vaccine.png"
           description="using material UI and Next.js to create a website for booking vaccine"
+          href="https://a12-swdevprac2-tuckkrub00-kkf6qd5i3-panthanas-projects.vercel.app"
         ></ProjectCard>
       </div>
+      {/* <div className="h-full w-full flex flex-col justify-center items-center">
+        <div className="w-full h-full flex flex-col items-center justify-center  my-2 gap-10 px-10 xl:flex-row xl:basis-1/3">
+          <ProjectCard
+            title="Software Engineering Project"
+            src="/pj/data_enginear.png"
+            description="using Scam process to work with team members,using Next.js to create website and deploy with vercel"
+          ></ProjectCard>
+          <ProjectCard
+            title="Data Science Data Engineering"
+            src="/pj/data_science.png"
+            description="using academic papers since 2018 to 2023 from sciencedirect webSide to create AI/ML models and make data visualization wtih streamlit"
+          ></ProjectCard>
+          <ProjectCard
+            title="My webPortfolio"
+            src="/pj/my_webPortfolio.png"
+            description="using Next.js to create my webPortfolio and deploy with vercel"
+          ></ProjectCard>
+        </div>
+        <div className="w-full h-full flex flex-col items-center justify-center  my-2 gap-10 px-10 xl:flex-row xl:basis-1/3">
+          <ProjectCard
+            title="Embedded System Project"
+            src="/pj/embed_system.png"
+            description="using esp32 and other sensors to create a smart home model that can control every thing throught the internet"
+          ></ProjectCard>
+          <ProjectCard
+            title="frontend project"
+            src="/pj/vaccine.png"
+            description="using material UI and Next.js to create a website for booking vaccine"
+          ></ProjectCard>
+        </div>
+        <div className="w-full h-full flex flex-col items-center justify-center  my-2 gap-10 px-10 xl:flex-row xl:basis-1/3">
+          <ProjectCard
+            title="frontend & backend project"
+            src="/pj/frontend_backend.png"
+            description="using non recreational database(mongoDB) and Next.js to create  a website for booking vaccine"
+          ></ProjectCard>
+        </div>
+      </div> */}
       <a target="_blank" href="https://github.com/Tuckkrub00">
         <motion.div
           variants={slideInFromTop}
