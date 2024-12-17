@@ -10,12 +10,12 @@ export const InternCard = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="w-full flex flex-col  md:flex-row   items-center bg-black bg-opacity-40 rounded-md justify-center "
+      className="w-full flex flex-col  lg:flex-row   items-center bg-black bg-opacity-40 rounded-md justify-center "
     >
       <div className="h-full flex flex-col items-center justify-center pr-20  w-full z-[20]">
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-7xl text-bold Wel text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-7xl mx-5 text-bold Wel text-white max-w-[600px] w-auto h-auto"
         >
           {/* <span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -49,7 +49,7 @@ export const InternCard = () => {
             ))}
             <motion.p
               variants={slideInFromLeft(0.8)}
-              className="text-lg  text-white my-5 max-w-[600px]"
+              className="text-lg  text-white my-5 mx-auto max-w-[600px]"
             >
               I was in scam process and working wtih developer team. I was
               responsible for developing and maintaining the front-end and
