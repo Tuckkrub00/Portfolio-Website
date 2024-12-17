@@ -4,11 +4,7 @@ import { ProjectCard } from "../sub/ProjectCard";
 import { motion } from "framer-motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { RxGithubLogo } from "react-icons/rx";
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/utils/motion";
+import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 export const Project = () => {
   return (
