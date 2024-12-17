@@ -45,7 +45,7 @@ export const Footer = () => {
             </p>
           </div>
           <div className="min-w-[200px] relative h-auto flex flex-col items-center justify-start ">
-            <div className="front-bold text-[16px]">Social Media</div>
+            <div className="front-bold text-[16px]">Contrack</div>
             <p className="flex flex-row items-center ">
               <Image
                 alt="Gmail"
