@@ -1,12 +1,27 @@
+"use client";
 import React from "react";
 import { ProjectCard } from "../sub/ProjectCard";
-
+import { motion } from "framer-motion";
+import { SparklesIcon } from "@heroicons/react/24/solid";
+import { RxGithubLogo } from "react-icons/rx";
+import { slideInFromTop } from "@/utils/motion";
 export const Project = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-20">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500 py-20">
+    <div className="flex relative flex-col items-center justify-center py-20">
+      <motion.div
+        variants={slideInFromTop}
+        // className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
+        className="Welcome-box mb-20 py-[8px] px-[4px] border border-[#7042f88b]"
+      >
+        <SparklesIcon className="text-[#6838f8] mr-[10px] h-10 w-10" />
+        {/* <h1 className=" text-white text-[22px]">Think better with Next js</h1> */}
+        <h1 className="text-[35px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-500 ">
+          My Projects
+        </h1>
+      </motion.div>
+      {/* <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500 py-20">
         My Projects
-      </h1>
+      </h1> */}
       <div className="h-full w-full flex flex-col basis-1/3 md:flex-wrap md:flex-row  justify-center items-center gap-10 px-10">
         <ProjectCard
           title="Data Science Data Engineering"
@@ -39,6 +54,23 @@ export const Project = () => {
           description="using material UI and Next.js to create a website for booking vaccine"
         ></ProjectCard>
       </div>
+      <a target="_blank" href="https://github.com/Tuckkrub00">
+        <motion.div
+          variants={slideInFromTop}
+          // className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
+          className="rounded-3xl  text-white   bg-black bg-opacity-55 flex flex-row items-center justify-center my-20 py-[8px] px-[4px] border border-[#7042f88b]  hover:bg-opacity-80 hover:scale-110 transition-all duration-500 ease-in-out"
+        >
+          <RxGithubLogo className="mr-[10px] h-10 w-10"></RxGithubLogo>
+          {/* <SparklesIcon className="text-[#6838f8] mr-[10px] h-10 w-10" /> */}
+          {/* <h1 className=" text-white text-[22px]">Think better with Next js</h1> */}
+          {/* <h1 className="text-[35px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-500 ">
+            Go to my GitHub Profile
+          </h1> */}
+          <h1 className="text-[35px] font-semibold ">
+            Go to my GitHub Profile
+          </h1>
+        </motion.div>
+      </a>
     </div>
   );
 };
