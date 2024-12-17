@@ -24,7 +24,10 @@ export const HeroContent = () => {
           className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] "
         >
           <SparklesIcon className="text-[#6838f8] mr-[10px] h-5 w-5" />
-          <h1 className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-500">
+          <h1
+            id="firstPage"
+            className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-500"
+          >
             My portfolio
           </h1>
         </motion.div>
