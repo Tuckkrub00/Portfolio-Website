@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Footer } from "./components/main/Footer";
+// import { Footer } from "./components/main/Footer";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -30,7 +30,7 @@ export default function RootLayout({
         className={` overflow-scroll overflow-x-hidden`}
       >
         {children}
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </body>
     </html>
   );

@@ -13,11 +13,13 @@ export const SkillText = () => {
     <div className="w-full h-auto flex flex-col items-center justify-center">
       <motion.div
         variants={slideInFromTop}
-        //   className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
-        className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b]"
+        // className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
+        className="Welcome-box  py-[8px] px-[4px] border border-[#7042f88b]"
       >
-        <SparklesIcon className="text-[#6838f8] mr-[10px] h-5 w-5" />
-        <h1 className="Welcome-text text-[22px]">Think better with Next js</h1>
+        <SparklesIcon className="text-[#6838f8] mr-[10px] h-10 w-10" />
+        <h1 className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-500 text-[35px]">
+          Think better with Next js
+        </h1>
       </motion.div>
 
       <motion.div
