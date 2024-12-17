@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { RxGithubLogo } from "react-icons/rx";
 import { slideInFromTop } from "@/utils/motion";
-import Image from "next/image";
 export const Project = () => {
   return (
     <div className="flex relative flex-col items-center justify-center py-20">
