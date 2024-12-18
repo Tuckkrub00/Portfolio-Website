@@ -18,7 +18,7 @@ export const SkillText = () => {
       >
         <SparklesIcon className="text-[#6838f8] mr-[10px] h-10 w-10" />
         <h1 className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-purple-700 to-cyan-500 text-[35px]">
-          Think better with Next js
+          My Development Skills
         </h1>
       </motion.div>
 
@@ -26,12 +26,12 @@ export const SkillText = () => {
         variants={slideInFromLeft(0.5)}
         className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
       >
-        Developing apps using frameworks that I have knowledge
+        Library and Frameworks that I have knowledge
       </motion.div>
 
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        className=" text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
         Every thought is the starting point of success
       </motion.div>
