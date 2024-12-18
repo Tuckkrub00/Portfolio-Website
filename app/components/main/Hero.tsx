@@ -1,6 +1,16 @@
 import { HeroContent } from "../sub/HeroContent";
 
-const Hero = () => {
+const b = async () => {
+  const res = await fetch("http://localhost:3000/api/gimini", {
+    method: "GET",
+  });
+  const data = await res.json();
+  console.log(data);
+};
+
+const Hero = async () => {
+  // await fet();
+  await b();
   return (
     <div className="relative  flex flex-col  h-full w-full">
       <video
