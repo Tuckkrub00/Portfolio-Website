@@ -22,7 +22,7 @@ export const Footer = () => {
             <p className="flex flex-row items-center my-[15px] ">
               <RxDiscordLogo></RxDiscordLogo>
               <span className="text-[15px] ml-[6px]">
-                Discord account: Tuckkrub00
+                Discord account: tuck7545
               </span>
             </p>
           </div>
