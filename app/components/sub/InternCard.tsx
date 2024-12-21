@@ -51,10 +51,10 @@ export const InternCard = () => {
               variants={slideInFromLeft(0.8)}
               className="text-lg  text-white my-5 mx-auto max-w-[600px]"
             >
-              I was in scam process and working wtih developer team. I was
-              responsible for developing and maintaining the front-end and
-              back-end of the projects as well as implementing new features
-              according to customers requesments.
+              I was working on the scrum process and collaborating with the
+              development team. I was responsible for developing and maintaining
+              both the front-end and back-end of the projects, as well as
+              implementing new features based on customer requirements.
             </motion.p>
           </div>
         </motion.div>
