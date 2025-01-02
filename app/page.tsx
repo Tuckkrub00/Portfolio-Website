@@ -1,3 +1,4 @@
+import { ChatBot } from "./components/main/ChatBot";
 import { Footer } from "./components/main/Footer";
 import Hero from "./components/main/Hero";
 import { Intern } from "./components/main/Intern";
@@ -25,6 +26,7 @@ export default function Home() {
         <Skills />
         <Project></Project>
         <Intern />
+        <ChatBot></ChatBot>
         <Footer></Footer>
       </div>
     </main>
