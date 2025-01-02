@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 interface Props {
   src: string;
   title: string;
@@ -8,7 +9,10 @@ interface Props {
 }
 export const ProjectCard = ({ src, title, description, href }: Props) => {
   return (
-    <div className="relative xl:h-[380px] xl:w-[31%] overflow-hidden rounded-lg shadow-lg border bg-opacity-80 bg-black border-[#2A0E61]">
+    <motion.div
+      whileHover={{ scale: 1.05, scaleY: 1.05, transition: { duration: 0.3 } }}
+      className="relative xl:h-[380px] xl:w-[31%] overflow-hidden rounded-lg shadow-lg border bg-opacity-80 bg-black border-[#2A0E61]"
+    >
       <a href={href} target="_blank">
         <Image
           alt={title}
@@ -24,6 +28,6 @@ export const ProjectCard = ({ src, title, description, href }: Props) => {
           <p className="mt-2 text-gray-300">{description}</p>
         </div>
       </a>
-    </div>
+    </motion.div>
   );
 };
