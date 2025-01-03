@@ -62,7 +62,7 @@ export const ChatBot = () => {
           <div className="h-full flex flex-col items-center justify-center pr-auto  w-full z-[20]">
             <div className="flex flex-col gap-3 mt-6  mx-5 text-bold Wel text-white  w-auto h-auto">
               <p className="w-auto text-5xl flex flex-row items-center justify-start">
-                Hi! I'm Arisu an AI assistant of Tuck ✨
+                Hi! I&apos;m Arisu an AI assistant of Tuck ✨
                 {/* <SparklesIcon className=" mr-[10px] h-10 w-10" /> */}
               </p>
               <span className="mt-1 text-2xl ">
