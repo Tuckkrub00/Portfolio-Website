@@ -5,7 +5,6 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
-import Skeleton from "@mui/material/Skeleton";
 
 export const ChatBot = () => {
   // console.log(process.env);
