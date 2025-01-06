@@ -160,7 +160,7 @@ export const ChatBot = () => {
               className="h-[425px] pr-4 w-full overflow-y-scroll scrollbar-hidden"
             >
               {/* <div className="h-[425px] p-6 pt-0 w-full  overflow-y-scroll scrollbar-hidden"> */}
-              {messages.map((msg, index) => (
+              {messages.slice(1).map((msg, index) => (
                 <div
                   key={index}
                   className={`mb-4 flex flex-row items-center ${
