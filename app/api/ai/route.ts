@@ -31,7 +31,7 @@ export async function POST(req: Request) {
 
     // Perform the Generative AI operation
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.0-flash-exp",
+      model: "gemini-2.5-pro",
     });
 
     const chatSession = model.startChat({

@@ -290,3 +290,25 @@ export const NPR_skill = [
     height: 70,
   },
 ];
+
+export const Ztrus_skill = [
+  {
+    skill_name: "Docker",
+    Image: "/docker.webp",
+    width: 70,
+    height: 70,
+  },
+
+  {
+    skill_name: "jenkins",
+    Image: "/jenkin.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "langchain",
+    Image: "/langchain.jpg",
+    width: 70,
+    height: 70,
+  },
+];

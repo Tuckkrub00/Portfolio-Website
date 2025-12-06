@@ -4,6 +4,7 @@ import { slideInFromTop } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { InternCard } from "../sub/InternCard";
+import { InternCardTwo } from "../sub/InternCardTwo";
 
 export const Intern = () => {
   return (
@@ -20,6 +21,7 @@ export const Intern = () => {
         </h1>
       </motion.div>
       <InternCard />
+      <InternCardTwo />
     </div>
   );
 };
